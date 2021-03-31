@@ -42,18 +42,19 @@
   top: 300px;
   left: 100px;
 transform: rotate(350deg);
-  animation: animatesup 6s linear infinite;
+  animation: animatesup 8s linear infinite;
 }
 
 @keyframes animatesup{
 
   
     0%{
-       transform: translateX(-100%) translateY(30%);
+       transform: translateX(-100%) ;
         
     }
+
     100%{
-        transform: translateX(300%);
+        transform: translateX(400%) scale(2);
     }
 }
 .light{
